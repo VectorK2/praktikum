@@ -1,0 +1,94 @@
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+  margin:auto;
+}
+
+.header {
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  /* выше установили ограничения для секции */
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.header__flex {
+  /*background-color: aqua; */
+}
+
+.header__title_flex {
+  display: inline-flex;
+  height: 100vh;
+  min-height: 600px;
+  max-height: 756px;
+  align-items: center;
+}
+.place__header_logo {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 64px;
+  width: 228px;
+  height: 32px;
+  position: absolute;
+  border: 1px solid red;
+  z-index: 3;
+
+}
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
+.header__title {
+  display: flex;
+  width: 730px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin-left: 64px;
+  font-weight: 600;
+  font-size: 102px;
+  border: 1px solid red;
+  line-height: 96px;
+  z-index: 3;
+
+}
+.header__subtitle {
+  width: 388px;
+  border: 1px solid red;
+  left: 64px;
+  bottom: 30px;
+  position: absolute;
+  z-index: 3;
+
+}
+.header__main-illustration {
+  border: 1px solid red;
+  position: absolute;
+  width: 756px;
+  height: 608px;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+.square-pic {
+  width: 568px;
+  height: 568px;
+  border: 1px solid red;
+  background-color: #2f80ed;
+  right: 0;
+  top: 64px;
+  position: absolute;
+  z-index: 1;
+}
